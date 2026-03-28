@@ -39,6 +39,7 @@ def click_stop():
 
 init()
 mixer.music.load("pingpong/intothenightmix.ogg")
+mixer.music.play()
 screen = display.set_mode((width, height))
 display.set_caption("Live Audio (Mic)")
 font = font.Font(None, 24)  
